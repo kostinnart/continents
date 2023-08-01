@@ -6,7 +6,7 @@ export function Result({ correct }) {
         <div className="result">
             <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png"/>
             <h2>Correct answers : {correct} <br/>FROM : {questions.length}</h2>
-            <a href="/">
+            <a href="https://kostinn-x.github.io/countries/">
                 <button>Try again</button>
             </a>
         </div>
