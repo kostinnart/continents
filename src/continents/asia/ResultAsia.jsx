@@ -8,7 +8,7 @@ export function ResultAsia({ correct }) {
         <div className="result">
             <img src={asia}/>
             <h2>Correct answers : {correct} <br/>FROM : {questionsAsia.length}</h2>
-            <a href="https://kostinn-x.github.io/countries/">
+            <a href="https://kostinnart.github.io/continents/">
                 <button>Try again</button>
             </a>
         </div>
