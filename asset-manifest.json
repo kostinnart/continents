@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/continents/static/css/main.bd5df52d.css",
-    "main.js": "/continents/static/js/main.6fc76ff1.js",
+    "main.css": "/continents/static/css/main.2349d694.css",
+    "main.js": "/continents/static/js/main.eb60adad.js",
     "static/media/asia.svg": "/continents/static/media/asia.4d868de3aafd753bbd157431746def2e.svg",
     "static/media/Europe.svg": "/continents/static/media/Europe.dd53d494928fd349a1943c48e9d41b4c.svg",
     "static/media/Africa real.svg": "/continents/static/media/Africa real.16b0c144e810bde85dadfe2ec9a9a1e3.svg",
     "static/media/South America .svg": "/continents/static/media/South America .1eaf517f5068acc0c89ddd6a58e94a8d.svg",
     "index.html": "/continents/index.html",
-    "main.bd5df52d.css.map": "/continents/static/css/main.bd5df52d.css.map",
-    "main.6fc76ff1.js.map": "/continents/static/js/main.6fc76ff1.js.map"
+    "main.2349d694.css.map": "/continents/static/css/main.2349d694.css.map",
+    "main.eb60adad.js.map": "/continents/static/js/main.eb60adad.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd5df52d.css",
-    "static/js/main.6fc76ff1.js"
+    "static/css/main.2349d694.css",
+    "static/js/main.eb60adad.js"
   ]
 }
