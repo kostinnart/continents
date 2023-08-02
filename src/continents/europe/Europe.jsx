@@ -1,14 +1,14 @@
-import '../index.scss';
+import '../../index.scss';
 import React from "react";
-import {questions} from "../config";
-import {Result} from "../result/Result";
-import {Game} from "../game/Game";
+import {questionsEurope} from "../../config";
+import {Result} from "../../result/Result";
+import {Game} from "../../game/Game";
 
 
-function App() {
+export function Europe() {
     const [step, setStep] = React.useState(0);
     const [correct, setCorrect] = React.useState(0);
-    const question = questions[step];
+    const question = questionsEurope[step];
     const onClickVariant = (index) => {
         setStep(step + 1)
 
@@ -19,16 +19,16 @@ function App() {
 
 
     return (
-        <div className="App">
-            {
-                step !== questions.length ? (
+
+            <div className="App">
+                {step !== questionsEurope.length ? (
                     <Game step={step} question={question} onClickVariant={onClickVariant}/>) : (
-                    <Result correct={correct}/>)
-            }
-        </div>
+                    <Result correct={correct}/>)}
+            </div>
+
+
 
 
     );
 }
 
-export default App;

@@ -1,0 +1,48 @@
+
+.header {
+    margin: 15px;
+    box-sizing: border-box;
+    background-color: rgba(138, 219, 0, 0.24);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.54);
+
+    /*border: 1px solid;*/
+    padding:3px 0 ;
+}
+
+.header ul {
+}
+
+
+
+.header a {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 300;
+    /*transition: all 0.1s ease-in-out;*/
+    font-size: 18px;
+
+
+
+    color: #fff;
+    background-color: #8bdc00;
+}
+
+
+
+.header ul li {
+
+    height: 33px;
+    width: 40%;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.header ul li:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+
+

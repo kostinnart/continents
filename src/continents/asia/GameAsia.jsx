@@ -1,10 +1,10 @@
-import {questionsAsia, questionsEurope} from "../config";
+import {questionsAsia, questionsEurope} from "../../config";
 import React from "react";
 
 
-export function Game({step, question, onClickVariant}) {
+export function GameAsia({step, question, onClickVariant}) {
 
-    const percentage = Math.round((step / questionsEurope.length) * 100);
+    const percentage = Math.round((step / questionsAsia.length) * 100);
 
 
 
@@ -17,8 +17,6 @@ export function Game({step, question, onClickVariant}) {
                 <img className="image_flag" src={question.imgUrl} alt=""/>
             </div>
             <h1>{question.title}</h1>
-
-
             <div className="message">{question.message}</div>
             <ul>
                 {
